@@ -9,5 +9,4 @@ public class DynamicLoadingExample1Page {
         this.driver = driver;
     }
 
-
 }
