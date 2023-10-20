@@ -11,6 +11,7 @@ import org.testng.annotations.BeforeMethod;
 import pages.HomePage;
 
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 public class BaseTests {
     private WebDriver driver;
@@ -21,6 +22,7 @@ public class BaseTests {
 
         System.setProperty("webdriver.chrome.driver", "resources/chromedriver");
         driver = new ChromeDriver();
+        //driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
         goHome();
 
         homePage = new HomePage(driver);
