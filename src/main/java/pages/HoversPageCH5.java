@@ -5,12 +5,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
-public class HoversPage {
+public class HoversPageCH5 {
     private WebDriver driver;
     private By figureBox = By.className("figure");
     private By boxCaption = By.className("figcaption");
 
-    public HoversPage(WebDriver driver) {
+    public HoversPageCH5(WebDriver driver) {
         this.driver = driver;
     }
 

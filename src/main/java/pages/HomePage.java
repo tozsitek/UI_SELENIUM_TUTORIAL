@@ -23,14 +23,14 @@ public class HomePage {
         return new DropdownPage(driver);
     }
 
-    public HoversPage clickHovers() {
+    public HoversPageCH5 clickHovers() {
         clickLink("Hovers");
-        return new HoversPage(driver);
+        return new HoversPageCH5(driver);
     }
 
-    public KeyPressesPage clickKeyPresses(){
+    public KeyPressesPageCH6 clickKeyPresses(){
         clickLink("Key Presses");
-        return new KeyPressesPage(driver);
+        return new KeyPressesPageCH6(driver);
     }
 
     public HorizontalSliderPage clickHorizontalSlider(){
@@ -38,9 +38,9 @@ public class HomePage {
         return new HorizontalSliderPage(driver);
     }
 
-    public AlertsPage clickJavaScriptAlerts(){
+    public AlertsPageCH7 clickJavaScriptAlerts(){
         clickLink("JavaScript Alerts");
-        return new AlertsPage(driver);
+        return new AlertsPageCH7(driver);
     }
 
     public FileUploadPage clickFileUpload(){

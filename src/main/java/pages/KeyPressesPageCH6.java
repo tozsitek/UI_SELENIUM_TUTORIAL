@@ -4,12 +4,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 
-public class KeyPressesPage {
+public class KeyPressesPageCH6 {
     private WebDriver driver;
     private By inputField = By.id("target");
     private By resultText = By.id("result");
 
-    public KeyPressesPage(WebDriver driver){
+    public KeyPressesPageCH6(WebDriver driver){
         this.driver = driver;
     }
 

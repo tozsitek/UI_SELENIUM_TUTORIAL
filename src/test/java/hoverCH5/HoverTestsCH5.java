@@ -1,4 +1,4 @@
-package hover;
+package hoverCH5;
 
 import base.BaseTests;
 import org.testng.annotations.Test;
@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
-public class HoverTests extends BaseTests {
+public class HoverTestsCH5 extends BaseTests {
 
     @Test
     public void testHoverUser1(){
