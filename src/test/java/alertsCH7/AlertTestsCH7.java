@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 import static org.testng.Assert.assertEquals;
 
 public class AlertTestsCH7 extends BaseTests {
+    // driver.switchTo().alert()
     @Test
     public void testAcceptAlert(){
         var alertsPage = homePage.clickJavaScriptAlerts();

@@ -43,9 +43,10 @@ public class HomePage {
         return new AlertsPageCH7(driver);
     }
 
-    public FileUploadPage clickFileUpload(){
+    // CH 7.2 File uploads
+    public FileUploadPageCH7 clickFileUpload(){
         clickLink("File Upload");
-        return new FileUploadPage(driver);
+        return new FileUploadPageCH7(driver);
     }
 
     public WysiwygEditorPage clickWysiwygEditor(){
@@ -63,9 +64,9 @@ public class HomePage {
        return new DynamicLoadingPage(driver);
     }
 
-    public ContextMenuPage clickContextMenu(){
+    public ContextMenuPageCH7Modals clickContextMenu(){
         clickLink("Context Menu");
-        return new ContextMenuPage(driver);
+        return new ContextMenuPageCH7Modals(driver);
     }
 
     private void clickLink(String linkText){

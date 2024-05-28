@@ -4,11 +4,11 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
 
-public class ContextMenuPage{
+public class ContextMenuPageCH7Modals {
     private WebDriver driver;
     private By box = By.id("hot-spot");
 
-    public ContextMenuPage(WebDriver driver) {
+    public ContextMenuPageCH7Modals(WebDriver driver) {
         this.driver = driver;
     }
 

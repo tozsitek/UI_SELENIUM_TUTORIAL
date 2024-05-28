@@ -1,4 +1,4 @@
-package contextmenu;
+package contextmenuCH7Modals;
 
 import base.BaseTests;
 import org.testng.annotations.Test;

@@ -1,4 +1,4 @@
-package files;
+package filesCH7;
 
 import base.BaseTests;
 import org.openqa.selenium.WebDriver;
